@@ -18,5 +18,5 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
 
 app.listen(process.env.PORT, () => {
-    console.log(`servidor en el puerto ${process.env.PORT}`)
+    console.log(`servidor on port ${process.env.PORT}`)
 })
